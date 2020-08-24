@@ -10,8 +10,8 @@ package jwentityclass;
  * @author Asus
  */
 public class Score implements Comparable<Score>{
-    private int accumulatedMarks;
-    private Player currentPlayer;
+    private int accumulatedMarks;// 89
+    private Player currentPlayer;//name , id
     //private int level;
 
     public Score(int accumulatedMarks, Player currentPlayer) {
